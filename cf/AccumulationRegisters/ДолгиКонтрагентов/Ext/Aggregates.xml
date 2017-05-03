@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AccumulationRegisterAggregates xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Aggregate id="5267f0ae-fc52-4650-be76-455a37465aca">
+		<Use>Auto</Use>
+		<Periodicity>Auto</Periodicity>
+		<Dimensions>
+			<Dimension ref="AccumulationRegister.ДолгиКонтрагентов.Dimension.Организация">false</Dimension>
+			<Dimension ref="AccumulationRegister.ДолгиКонтрагентов.Dimension.Контрагент">false</Dimension>
+			<Dimension ref="AccumulationRegister.ДолгиКонтрагентов.Dimension.Договор">false</Dimension>
+		</Dimensions>
+	</Aggregate>
+</AccumulationRegisterAggregates>
