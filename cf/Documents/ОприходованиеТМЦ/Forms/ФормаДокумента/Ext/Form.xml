@@ -733,7 +733,6 @@
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d</DataPath>
-							<CommandSet/>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ДвиженияДолгиКонтрагентовКонтекстноеМеню" id="181"/>
 							<AutoCommandBar name="ДвиженияДолгиКонтрагентовКоманднаяПанель" id="182"/>

@@ -125,6 +125,11 @@
 			<Subsystem>Справочники</Subsystem>
 			<Subsystem>Отчеты</Subsystem>
 			<Subsystem>НастройкиИАдминистрирование</Subsystem>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Закупки</Subsystem>
+			<Subsystem>Склад</Subsystem>
+			<Subsystem>Финансы</Subsystem>
+			<Subsystem>НСИ</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<CommonModule>ОснПроцедурыИФ</CommonModule>
