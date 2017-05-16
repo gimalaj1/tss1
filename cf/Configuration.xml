@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>УдобнаяТорговля83</Name>
+			<Name>УдобнаяТорговля83</Name> 
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -127,10 +127,18 @@
 			<Subsystem>Финансы</Subsystem>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>НастройкиИАдминистрирование</Subsystem>
+<<<<<<< HEAD
 			<Subsystem>удалитьДокументы</Subsystem>
 			<Subsystem>удалитьСправочники</Subsystem>
 			<Subsystem>удалитьЦенообразование</Subsystem>
 			<Subsystem>удалитьОтчеты</Subsystem>
+=======
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Закупки</Subsystem>
+			<Subsystem>Склад</Subsystem>
+			<Subsystem>Финансы</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+>>>>>>> 1cbb4bb51714f818f8371abc4e1a23afb64e35cf
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<CommonModule>ОснПроцедурыИФ</CommonModule>
