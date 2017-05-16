@@ -182,6 +182,7 @@
 			<Report>ВедомостьПоПартиям</Report>
 			<Report>ВзаиморасчетыСКонтрагентами</Report>
 			<Report>ОстаткиТоваров</Report>
+			<Report>Продажи</Report>
 			<DataProcessor>ВосстановлениеПоследовательности</DataProcessor>
 			<DataProcessor>НастройкиИАдминистрирование</DataProcessor>
 			<DataProcessor>УправленияФормами</DataProcessor>
@@ -189,6 +190,7 @@
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ПартииТоваров</AccumulationRegister>
 			<AccumulationRegister>ДолгиКонтрагентов</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
