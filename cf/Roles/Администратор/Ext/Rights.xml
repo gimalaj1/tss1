@@ -4,14 +4,14 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.Сборка</name>
+		<name>Document.СборкаТоваров</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ВозвратОтКлиента</name>
+		<name>Document.ВозвратТоваровОтКлиента</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -139,7 +139,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВозвратПоставщику</name>
+		<name>Document.ВозвратТоваровПоставщику</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -184,7 +184,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПеремещениеТМЦ</name>
+		<name>Document.ПеремещениеТоваров</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
@@ -206,14 +206,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РеализацияТМЦ</name>
+		<name>Document.РеализацияТоваровУслуг</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Document.ПоступлениеТМЦ</name>
+		<name>Document.ПоступлениеТоваровУслуг</name>
 		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>

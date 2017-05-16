@@ -328,10 +328,10 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ВозвратОтКлиента</v8:Type>
-						<v8:Type>cfg:DocumentRef.Сборка</v8:Type>
-						<v8:Type>cfg:DocumentRef.ПоступлениеТМЦ</v8:Type>
-						<v8:Type>cfg:DocumentRef.ОприходованиеТМЦ</v8:Type>
+						<v8:Type>cfg:DocumentRef.ВозвратТоваровОтКлиента</v8:Type>
+						<v8:Type>cfg:DocumentRef.СборкаТоваров</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПоступлениеТоваровУслуг</v8:Type>
+						<v8:Type>cfg:DocumentRef.ОприходованиеТоваров</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

@@ -99,7 +99,7 @@
 					<ExtendedTooltip name="ВидДоговораРасширеннаяПодсказка" id="39"/>
 				</LabelField>
 				<LabelField name="ТипДоговора" id="28">
-					<DataPath>1/10</DataPath>
+					<DataPath>Список.Owner</DataPath>
 					<ContextMenu name="ТипДоговораКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="ТипДоговораРасширеннаяПодсказка" id="30"/>
 				</LabelField>
