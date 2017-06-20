@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>УдобнаяТорговля83</Name>
+			<Name>УдобнаяТорговля83</Name> 
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -120,11 +120,25 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>Документы</Subsystem>
-			<Subsystem>Ценообразование</Subsystem>
-			<Subsystem>Справочники</Subsystem>
-			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>Маркетинг</Subsystem>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Закупки</Subsystem>
+			<Subsystem>Склад</Subsystem>
+			<Subsystem>Финансы</Subsystem>
+			<Subsystem>НСИ</Subsystem>
 			<Subsystem>НастройкиИАдминистрирование</Subsystem>
+<<<<<<< HEAD
+			<Subsystem>удалитьДокументы</Subsystem>
+			<Subsystem>удалитьСправочники</Subsystem>
+			<Subsystem>удалитьЦенообразование</Subsystem>
+			<Subsystem>удалитьОтчеты</Subsystem>
+=======
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>Закупки</Subsystem>
+			<Subsystem>Склад</Subsystem>
+			<Subsystem>Финансы</Subsystem>
+			<Subsystem>НСИ</Subsystem>
+>>>>>>> 1cbb4bb51714f818f8371abc4e1a23afb64e35cf
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<CommonModule>ОснПроцедурыИФ</CommonModule>
@@ -152,15 +166,22 @@
 			<Catalog>ГТД</Catalog>
 			<Catalog>СтраныМира</Catalog>
 			<Catalog>Пользователи</Catalog>
-			<Document>ПоступлениеТМЦ</Document>
-			<Document>РеализацияТМЦ</Document>
-			<Document>ПеремещениеТМЦ</Document>
-			<Document>ВозвратОтКлиента</Document>
-			<Document>ВозвратПоставщику</Document>
-			<Document>Сборка</Document>
-			<Document>ОприходованиеТМЦ</Document>
-			<Document>СписаниеТМЦ</Document>
-			<Document>ИнвентаризацияТМЦ</Document>
+			<Document>ВозвратТоваровПоставщику</Document>
+			<Document>ВозвратТоваровОтКлиента</Document>
+			<Document>ЗаказПокупателя</Document>
+			<Document>ЗаказПоставщику</Document>
+			<Document>ИнвентаризацияТоваров</Document>
+			<Document>ОплатаПоКарте</Document>
+			<Document>ОприходованиеТоваров</Document>
+			<Document>ПеремещениеТоваров</Document>
+			<Document>ПоступлениеНаРасчетныйСчет</Document>
+			<Document>ПоступлениеТоваровУслуг</Document>
+			<Document>ПриходныйКассовыйОрдер</Document>
+			<Document>РасходныйКассовыйОрдер</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>СборкаТоваров</Document>
+			<Document>СписаниеСРасчетногоСчета</Document>
+			<Document>СписаниеТоваров</Document>
 			<Sequence>ОсновнаяПоследовательность</Sequence>
 			<DocumentJournal>ЖурналДокументов</DocumentJournal>
 			<Enum>СтавкиНДС</Enum>
@@ -169,6 +190,7 @@
 			<Report>ВедомостьПоПартиям</Report>
 			<Report>ВзаиморасчетыСКонтрагентами</Report>
 			<Report>ОстаткиТоваров</Report>
+			<Report>Продажи</Report>
 			<DataProcessor>ВосстановлениеПоследовательности</DataProcessor>
 			<DataProcessor>НастройкиИАдминистрирование</DataProcessor>
 			<DataProcessor>УправленияФормами</DataProcessor>
@@ -176,6 +198,7 @@
 			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ПартииТоваров</AccumulationRegister>
 			<AccumulationRegister>ДолгиКонтрагентов</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

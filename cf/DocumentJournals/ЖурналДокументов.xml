@@ -28,15 +28,15 @@
 			<AuxiliaryForm/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<RegisteredDocuments>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратОтКлиента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПоставщику</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.Сборка</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТМЦ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СборкаТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТоваров</xr:Item>
 			</RegisteredDocuments>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ListPresentation/>
@@ -56,15 +56,15 @@
 					<Comment/>
 					<Indexing>Index</Indexing>
 					<References>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТМЦ.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТМЦ.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТМЦ.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратОтКлиента.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПоставщику.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.Сборка.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТМЦ.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТМЦ.Attribute.Организация</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТМЦ.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтКлиента.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СборкаТоваров.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТоваров.Attribute.Организация</xr:Item>
 					</References>
 				</Properties>
 			</Column>
@@ -80,15 +80,15 @@
 					<Comment/>
 					<Indexing>Index</Indexing>
 					<References>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТМЦ.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТМЦ.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТМЦ.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПоставщику.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратОтКлиента.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.Сборка.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТМЦ.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТМЦ.Attribute.Склад</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТМЦ.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтКлиента.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СборкаТоваров.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров.Attribute.Склад</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТоваров.Attribute.Склад</xr:Item>
 					</References>
 				</Properties>
 			</Column>
@@ -104,10 +104,10 @@
 					<Comment/>
 					<Indexing>Index</Indexing>
 					<References>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТМЦ.Attribute.Контрагент</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТМЦ.Attribute.Контрагент</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПоставщику.Attribute.Контрагент</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратОтКлиента.Attribute.Контрагент</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг.Attribute.Контрагент</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг.Attribute.Контрагент</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику.Attribute.Контрагент</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтКлиента.Attribute.Контрагент</xr:Item>
 					</References>
 				</Properties>
 			</Column>
@@ -123,12 +123,12 @@
 					<Comment/>
 					<Indexing>Index</Indexing>
 					<References>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТМЦ.Attribute.СуммаДокумента</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТМЦ.Attribute.СуммаДокумента</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратОтКлиента.Attribute.СуммаДокумента</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПоставщику.Attribute.СуммаДокумента</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТМЦ.Attribute.СуммаДокумента</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТМЦ.Attribute.СуммаДокумента</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг.Attribute.СуммаДокумента</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг.Attribute.СуммаДокумента</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтКлиента.Attribute.СуммаДокумента</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику.Attribute.СуммаДокумента</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров.Attribute.СуммаДокумента</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров.Attribute.СуммаДокумента</xr:Item>
 					</References>
 				</Properties>
 			</Column>
@@ -144,15 +144,15 @@
 					<Comment/>
 					<Indexing>DontIndex</Indexing>
 					<References>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТМЦ.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТМЦ.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТМЦ.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратОтКлиента.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПоставщику.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.Сборка.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТМЦ.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТМЦ.Attribute.Комментарий</xr:Item>
-						<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТМЦ.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтКлиента.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СборкаТоваров.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ИнвентаризацияТоваров.Attribute.Комментарий</xr:Item>
 					</References>
 				</Properties>
 			</Column>

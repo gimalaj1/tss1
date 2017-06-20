@@ -44,25 +44,25 @@
 				<ChildItems>
 					<Button name="ФормаДокументВозвратПоставщикуСоздатьНаОсновании" id="60">
 						<Type>CommandBarButton</Type>
-						<CommandName>Document.ВозвратПоставщику.StandardCommand.CreateBasedOn</CommandName>
+						<CommandName>Document.ВозвратТоваровПоставщику.StandardCommand.CreateBasedOn</CommandName>
 						<DataPath>Items.Список.CurrentData.Ref</DataPath>
 						<ExtendedTooltip name="ФормаДокументВозвратПоставщикуСоздатьНаОснованииРасширеннаяПодсказка" id="61"/>
 					</Button>
 					<Button name="ФормаДокументПеремещениеТМЦСоздатьНаОсновании" id="62">
 						<Type>CommandBarButton</Type>
-						<CommandName>Document.ПеремещениеТМЦ.StandardCommand.CreateBasedOn</CommandName>
+						<CommandName>Document.ПеремещениеТоваров.StandardCommand.CreateBasedOn</CommandName>
 						<DataPath>Items.Список.CurrentData.Ref</DataPath>
 						<ExtendedTooltip name="ФормаДокументПеремещениеТМЦСоздатьНаОснованииРасширеннаяПодсказка" id="63"/>
 					</Button>
 					<Button name="ФормаДокументРеализацияТМЦСоздатьНаОсновании" id="64">
 						<Type>CommandBarButton</Type>
-						<CommandName>Document.РеализацияТМЦ.StandardCommand.CreateBasedOn</CommandName>
+						<CommandName>Document.РеализацияТоваровУслуг.StandardCommand.CreateBasedOn</CommandName>
 						<DataPath>Items.Список.CurrentData.Ref</DataPath>
 						<ExtendedTooltip name="ФормаДокументРеализацияТМЦСоздатьНаОснованииРасширеннаяПодсказка" id="65"/>
 					</Button>
 					<Button name="ФормаДокументВозвратОтКлиентаСоздатьНаОсновании" id="66">
 						<Type>CommandBarButton</Type>
-						<CommandName>Document.ВозвратОтКлиента.StandardCommand.CreateBasedOn</CommandName>
+						<CommandName>Document.ВозвратТоваровОтКлиента.StandardCommand.CreateBasedOn</CommandName>
 						<DataPath>Items.Список.CurrentData.Ref</DataPath>
 						<ExtendedTooltip name="ФормаДокументВозвратОтКлиентаСоздатьНаОснованииРасширеннаяПодсказка" id="67"/>
 					</Button>

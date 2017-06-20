@@ -26,14 +26,14 @@
 			<Comment/>
 			<MoveBoundaryOnPosting>Move</MoveBoundaryOnPosting>
 			<Documents>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратОтКлиента</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратПоставщику</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.Сборка</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТМЦ</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТМЦ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваровУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваровУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СборкаТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров</xr:Item>
 			</Documents>
 			<RegisterRecords>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваров</xr:Item>
