@@ -1,28 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
 	<ScalingMode>Compact</ScalingMode>
-	<CommandSet>
-		<ExcludedCommand>Delete</ExcludedCommand>
-	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
-			<Button name="ФормаУстановитьИнтервал" id="52">
+			<Button name="ФормаСоздать" id="52">
 				<Type>CommandBarButton</Type>
-				<Representation>Picture</Representation>
-				<OnlyInAllActions>true</OnlyInAllActions>
-				<CommandName>Form.StandardCommand.SetDateInterval</CommandName>
-				<ShapeRepresentation>WhenActive</ShapeRepresentation>
-				<ExtendedTooltip name="ФормаУстановитьИнтервалРасширеннаяПодсказка" id="53"/>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.StandardCommand.Create</CommandName>
+				<ExtendedTooltip name="ФормаСоздатьРасширеннаяПодсказка" id="53"/>
 			</Button>
-			<Button name="ФормаСкопировать" id="48">
+			<Button name="ФормаСкопировать" id="54">
 				<Type>CommandBarButton</Type>
 				<Representation>Picture</Representation>
 				<OnlyInAllActions>true</OnlyInAllActions>
 				<CommandName>Form.StandardCommand.Copy</CommandName>
-				<ShapeRepresentation>WhenActive</ShapeRepresentation>
-				<ExtendedTooltip name="ФормаСкопироватьРасширеннаяПодсказка" id="49"/>
+				<ExtendedTooltip name="ФормаСкопироватьРасширеннаяПодсказка" id="55"/>
 			</Button>
-			<Popup name="ФормаГруппаОснования" id="56">
+			<Button name="ФормаУстановитьИнтервал" id="56">
+				<Type>CommandBarButton</Type>
+				<Representation>Picture</Representation>
+				<OnlyInAllActions>true</OnlyInAllActions>
+				<CommandName>Form.StandardCommand.SetDateInterval</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Период</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаУстановитьИнтервалРасширеннаяПодсказка" id="57"/>
+			</Button>
+			<Popup name="ФормаГруппаОснования" id="66">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -35,44 +42,53 @@
 						<v8:content>Форма группа основания</v8:content>
 					</v8:item>
 				</ToolTip>
-				<Picture>
-					<xr:Ref>StdPicture.Next</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
-				</Picture>
-				<ShapeRepresentation>WhenActive</ShapeRepresentation>
-				<ExtendedTooltip name="ФормаГруппаОснованияРасширеннаяПодсказка" id="57"/>
+				<ExtendedTooltip name="ФормаГруппаОснованияРасширеннаяПодсказка" id="67"/>
 				<ChildItems>
-					<Button name="ФормаДокументВозвратПоставщикуСоздатьНаОсновании" id="60">
-						<Type>CommandBarButton</Type>
-						<CommandName>Document.ВозвратПоставщику.StandardCommand.CreateBasedOn</CommandName>
-						<DataPath>Items.Список.CurrentData.Ref</DataPath>
-						<ExtendedTooltip name="ФормаДокументВозвратПоставщикуСоздатьНаОснованииРасширеннаяПодсказка" id="61"/>
-					</Button>
-					<Button name="ФормаДокументПеремещениеТМЦСоздатьНаОсновании" id="62">
-						<Type>CommandBarButton</Type>
-						<CommandName>Document.ПеремещениеТМЦ.StandardCommand.CreateBasedOn</CommandName>
-						<DataPath>Items.Список.CurrentData.Ref</DataPath>
-						<ExtendedTooltip name="ФормаДокументПеремещениеТМЦСоздатьНаОснованииРасширеннаяПодсказка" id="63"/>
-					</Button>
-					<Button name="ФормаДокументРеализацияТМЦСоздатьНаОсновании" id="64">
+					<Button name="ФормаДокументРеализацияТМЦСоздатьНаОсновании" id="68">
 						<Type>CommandBarButton</Type>
 						<CommandName>Document.РеализацияТМЦ.StandardCommand.CreateBasedOn</CommandName>
 						<DataPath>Items.Список.CurrentData.Ref</DataPath>
-						<ExtendedTooltip name="ФормаДокументРеализацияТМЦСоздатьНаОснованииРасширеннаяПодсказка" id="65"/>
+						<ExtendedTooltip name="ФормаДокументРеализацияТМЦСоздатьНаОснованииРасширеннаяПодсказка" id="69"/>
 					</Button>
-					<Button name="ФормаДокументВозвратОтКлиентаСоздатьНаОсновании" id="66">
+					<Button name="ФормаДокументПеремещениеТМЦСоздатьНаОсновании" id="70">
 						<Type>CommandBarButton</Type>
-						<CommandName>Document.ВозвратОтКлиента.StandardCommand.CreateBasedOn</CommandName>
+						<CommandName>Document.ПеремещениеТМЦ.StandardCommand.CreateBasedOn</CommandName>
 						<DataPath>Items.Список.CurrentData.Ref</DataPath>
-						<ExtendedTooltip name="ФормаДокументВозвратОтКлиентаСоздатьНаОснованииРасширеннаяПодсказка" id="67"/>
+						<ExtendedTooltip name="ФормаДокументПеремещениеТМЦСоздатьНаОснованииРасширеннаяПодсказка" id="71"/>
+					</Button>
+					<Button name="ФормаДокументВозвратПоставщикуСоздатьНаОсновании" id="72">
+						<Type>CommandBarButton</Type>
+						<CommandName>Document.ВозвратПоставщику.StandardCommand.CreateBasedOn</CommandName>
+						<DataPath>Items.Список.CurrentData.Ref</DataPath>
+						<ExtendedTooltip name="ФормаДокументВозвратПоставщикуСоздатьНаОснованииРасширеннаяПодсказка" id="73"/>
 					</Button>
 				</ChildItems>
 			</Popup>
+			<Button name="ФормаДокументПоступлениеТМЦПечать_ТОРГ12" id="64">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Document.ПоступлениеТМЦ.Command.Печать_ТОРГ12</CommandName>
+				<DataPath>Items.Список.CurrentData.Ref</DataPath>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ТОРГ12</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаДокументПоступлениеТМЦПечать_ТОРГ12РасширеннаяПодсказка" id="65"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="62">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<CommandName>Form.StandardCommand.Close</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="63"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
-	<Events>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
-	</Events>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -88,15 +104,14 @@
 		</UsualGroup>
 		<Table name="Список" id="3">
 			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
 			<DefaultItem>true</DefaultItem>
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
-			<CommandSet>
-				<ExcludedCommand>Delete</ExcludedCommand>
-			</CommandSet>
+			<BackColor>#F4FFF5</BackColor>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -143,90 +158,52 @@
 			<ChildItems>
 				<LabelField name="Ссылка" id="16">
 					<DataPath>Список.Ref</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документ</v8:content>
+						</v8:item>
+					</Title>
 					<ContextMenu name="СсылкаКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="18"/>
 				</LabelField>
-				<LabelField name="Тип" id="75">
-					<DataPath>Список.Type</DataPath>
-					<ContextMenu name="ТипКонтекстноеМеню" id="76"/>
-					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="77"/>
-				</LabelField>
-				<LabelField name="Дата" id="19">
+				<LabelField name="Дата" id="46">
 					<DataPath>Список.Date</DataPath>
-					<ContextMenu name="ДатаКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="21"/>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="48"/>
 				</LabelField>
-				<LabelField name="Номер" id="22">
+				<LabelField name="Номер" id="49">
 					<DataPath>Список.Number</DataPath>
-					<ContextMenu name="НомерКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="24"/>
+					<ContextMenu name="НомерКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="51"/>
 				</LabelField>
-				<LabelField name="Организация" id="34">
+				<LabelField name="Организация" id="31">
 					<DataPath>Список.Организация</DataPath>
-					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="35"/>
-					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="36"/>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="33"/>
 				</LabelField>
-				<LabelField name="Склад" id="37">
+				<LabelField name="Склад" id="34">
 					<DataPath>Список.Склад</DataPath>
-					<ContextMenu name="СкладКонтекстноеМеню" id="38"/>
-					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="39"/>
+					<ContextMenu name="СкладКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="36"/>
 				</LabelField>
-				<LabelField name="Контрагент" id="40">
+				<LabelField name="Контрагент" id="37">
 					<DataPath>Список.Контрагент</DataPath>
-					<ContextMenu name="КонтрагентКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="42"/>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="39"/>
 				</LabelField>
 				<LabelField name="СуммаДокумента" id="43">
 					<DataPath>Список.СуммаДокумента</DataPath>
 					<ContextMenu name="СуммаДокументаКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="СуммаДокументаРасширеннаяПодсказка" id="45"/>
 				</LabelField>
-			</ChildItems>
-		</Table>
-		<UsualGroup name="ГруппаПоследовательностьДокументов" id="71">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа последовательность документов</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа последовательность документов</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Group>Horizontal</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаПоследовательностьДокументовРасширеннаяПодсказка" id="72"/>
-			<ChildItems>
-				<Button name="ВосстановитьПоследовательность" id="73">
-					<Type>UsualButton</Type>
-					<Representation>PictureAndText</Representation>
-					<CommandName>Form.Command.ВосстановитьПоследовательность</CommandName>
-					<Picture>
-						<xr:Ref>StdPicture.WriteChanges</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Восстановить ГП</v8:content>
-						</v8:item>
-					</Title>
-					<Shape>Oval</Shape>
-					<ExtendedTooltip name="ВосстановитьПоследовательностьРасширеннаяПодсказка" id="74"/>
-				</Button>
-				<LabelField name="ГП" id="68">
-					<DataPath>ГП</DataPath>
-					<HorizontalAlign>Left</HorizontalAlign>
-					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-					<ContextMenu name="ГПКонтекстноеМеню" id="69"/>
-					<ExtendedTooltip name="ГПРасширеннаяПодсказка" id="70"/>
+				<LabelField name="Комментарий" id="40">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="42"/>
 				</LabelField>
 			</ChildItems>
-		</UsualGroup>
+		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Список" id="1">
@@ -237,7 +214,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>DocumentJournal.ЖурналДокументов</MainTable>
+				<MainTable>Document.ПоступлениеТМЦ</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
@@ -256,47 +233,5 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="ГП" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Основная последовательность</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>80</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
 	</Attributes>
-	<Commands>
-		<Command name="ВосстановитьПоследовательность" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Восстановить последовательность</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Восстановить последовательность</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ВосстановитьПоследовательность</Action>
-		</Command>
-	</Commands>
-	<CommandInterface>
-		<NavigationPanel>
-			<Item>
-				<Command>CommonCommand.ПоискСсылокНаОбъекты</Command>
-				<Type>Added</Type>
-				<CommandGroup>FormNavigationPanelImportant</CommandGroup>
-				<DefaultVisible>false</DefaultVisible>
-			</Item>
-		</NavigationPanel>
-	</CommandInterface>
 </Form>
