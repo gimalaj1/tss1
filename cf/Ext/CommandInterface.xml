@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
 	<SubsystemsOrder>
-		<Subsystem>af68ed03-fd20-4efd-8fd6-2f30b0d06cf7</Subsystem>
-		<Subsystem>5a2ac558-265b-446a-b64b-2da05ea93f7a</Subsystem>
-		<Subsystem>9affaeb6-ad9e-45c1-882b-595e3b21c963</Subsystem>
-		<Subsystem>Subsystem.Ценообразование</Subsystem>
-		<Subsystem>Subsystem.Документы</Subsystem>
-		<Subsystem>Subsystem.Справочники</Subsystem>
-		<Subsystem>Subsystem.Отчеты</Subsystem>
+		<Subsystem>Subsystem.Маркетинг</Subsystem>
+		<Subsystem>Subsystem.Продажи</Subsystem>
+		<Subsystem>Subsystem.Закупки</Subsystem>
+		<Subsystem>Subsystem.Склад</Subsystem>
+		<Subsystem>Subsystem.Финансы</Subsystem>
+		<Subsystem>Subsystem.НСИ</Subsystem>
 		<Subsystem>Subsystem.НастройкиИАдминистрирование</Subsystem>
 	</SubsystemsOrder>
 </CommandInterface>
