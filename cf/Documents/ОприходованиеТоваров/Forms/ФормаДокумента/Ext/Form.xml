@@ -732,7 +732,6 @@
 							<VerticalStretch>false</VerticalStretch>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
-							<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ДвиженияДолгиКонтрагентовКонтекстноеМеню" id="181"/>
 							<AutoCommandBar name="ДвиженияДолгиКонтрагентовКоманднаяПанель" id="182"/>
@@ -763,38 +762,32 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="ДвиженияДолгиКонтрагентовНомерСтроки" id="193">
-									<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d/-4</DataPath>
 									<Visible>false</Visible>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияДолгиКонтрагентовНомерСтрокиКонтекстноеМеню" id="194"/>
 									<ExtendedTooltip name="ДвиженияДолгиКонтрагентовНомерСтрокиРасширеннаяПодсказка" id="195"/>
 								</LabelField>
 								<InputField name="ДвиженияДолгиКонтрагентовПериод" id="196">
-									<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d/-2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияДолгиКонтрагентовПериодКонтекстноеМеню" id="197"/>
 									<ExtendedTooltip name="ДвиженияДолгиКонтрагентовПериодРасширеннаяПодсказка" id="198"/>
 								</InputField>
 								<InputField name="ДвиженияДолгиКонтрагентовВидДвижения" id="199">
-									<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d/-9</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияДолгиКонтрагентовВидДвиженияКонтекстноеМеню" id="200"/>
 									<ExtendedTooltip name="ДвиженияДолгиКонтрагентовВидДвиженияРасширеннаяПодсказка" id="201"/>
 								</InputField>
 								<InputField name="ДвиженияДолгиКонтрагентовОрганизация" id="202">
-									<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d/0:f970e99a-fdb7-4bcc-ad24-8140d75f439d</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияДолгиКонтрагентовОрганизацияКонтекстноеМеню" id="203"/>
 									<ExtendedTooltip name="ДвиженияДолгиКонтрагентовОрганизацияРасширеннаяПодсказка" id="204"/>
 								</InputField>
 								<InputField name="ДвиженияДолгиКонтрагентовКонтрагент" id="205">
-									<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d/0:bdc50988-a838-4d98-98db-f98733d7bfb1</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияДолгиКонтрагентовКонтрагентКонтекстноеМеню" id="206"/>
 									<ExtendedTooltip name="ДвиженияДолгиКонтрагентовКонтрагентРасширеннаяПодсказка" id="207"/>
 								</InputField>
 								<InputField name="ДвиженияДолгиКонтрагентовСумма" id="208">
-									<DataPath>1/-8/0:c1340755-b704-4192-96ba-d0dcf108054d/0:5d111c82-19e9-4cda-9ab0-6be95326085b</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияДолгиКонтрагентовСуммаКонтекстноеМеню" id="209"/>
 									<ExtendedTooltip name="ДвиженияДолгиКонтрагентовСуммаРасширеннаяПодсказка" id="210"/>
