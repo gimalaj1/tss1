@@ -667,7 +667,6 @@
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
-							<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="ДвиженияТоварыНаСкладахКонтекстноеМеню" id="104"/>
 							<AutoCommandBar name="ДвиженияТоварыНаСкладахКоманднаяПанель" id="105"/>
@@ -698,49 +697,41 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="ДвиженияТоварыНаСкладахНомерСтроки" id="116">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/-4</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахНомерСтрокиКонтекстноеМеню" id="117"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахНомерСтрокиРасширеннаяПодсказка" id="118"/>
 								</LabelField>
 								<InputField name="ДвиженияТоварыНаСкладахПериод" id="119">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/-2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахПериодКонтекстноеМеню" id="120"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахПериодРасширеннаяПодсказка" id="121"/>
 								</InputField>
 								<InputField name="ДвиженияТоварыНаСкладахВидДвижения" id="122">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/-9</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахВидДвиженияКонтекстноеМеню" id="123"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахВидДвиженияРасширеннаяПодсказка" id="124"/>
 								</InputField>
 								<InputField name="ДвиженияТоварыНаСкладахОрганизация" id="125">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/0:a163153e-57c2-4b2b-9191-bb848f38090e</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахОрганизацияКонтекстноеМеню" id="126"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахОрганизацияРасширеннаяПодсказка" id="127"/>
 								</InputField>
 								<InputField name="ДвиженияТоварыНаСкладахСклад" id="128">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/0:a423dcb4-4e09-4f41-a3b3-717bac9d914e</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахСкладКонтекстноеМеню" id="129"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахСкладРасширеннаяПодсказка" id="130"/>
 								</InputField>
 								<InputField name="ДвиженияТоварыНаСкладахПоставщик" id="131">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/0:5df880df-a37d-4d9b-8fe1-4abb1a12059d</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахПоставщикКонтекстноеМеню" id="132"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахПоставщикРасширеннаяПодсказка" id="133"/>
 								</InputField>
 								<InputField name="ДвиженияТоварыНаСкладахНоменклатура" id="134">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/0:a973397e-5cb5-4f80-b92c-d44f701d205d</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахНоменклатураКонтекстноеМеню" id="135"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахНоменклатураРасширеннаяПодсказка" id="136"/>
 								</InputField>
 								<InputField name="ДвиженияТоварыНаСкладахКоличество" id="137">
-									<DataPath>1/-8/0:5d088ef0-245c-4477-bd72-f363bc75e596/0:3beb7f7e-dc98-42ae-81e1-fafb86d28696</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ДвиженияТоварыНаСкладахКоличествоКонтекстноеМеню" id="138"/>
 									<ExtendedTooltip name="ДвиженияТоварыНаСкладахКоличествоРасширеннаяПодсказка" id="139"/>

@@ -448,7 +448,6 @@
 									</Events>
 								</InputField>
 								<InputField name="ТоварыЦена" id="47">
-									<DataPath>1/0:92c4d265-03c8-4161-9172-a42df5e04cc4/0:b6a32bae-013f-4e6e-8eda-45c0e040b674</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ShowInFooter>false</ShowInFooter>
 									<Width>8</Width>
@@ -459,9 +458,7 @@
 									</Events>
 								</InputField>
 								<InputField name="ТоварыСумма" id="50">
-									<DataPath>1/0:92c4d265-03c8-4161-9172-a42df5e04cc4/0:da30d2d2-34db-4042-8f9c-32973db53ba3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<FooterDataPath>1/0:92c4d265-03c8-4161-9172-a42df5e04cc4/101000000:da30d2d2-34db-4042-8f9c-32973db53ba3</FooterDataPath>
 									<Width>8</Width>
 									<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="51"/>
 									<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="52"/>

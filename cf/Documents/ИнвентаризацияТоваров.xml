@@ -237,6 +237,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="32a39cd6-68ac-4a0f-a0f3-9c7da5b466f8">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ИнвентаризацияТоваров.Товары" category="TabularSection">

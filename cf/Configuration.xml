@@ -131,9 +131,50 @@
 			<Subsystem>удалитьСправочники</Subsystem>
 			<Subsystem>удалитьЦенообразование</Subsystem>
 			<Subsystem>удалитьОтчеты</Subsystem>
+			<CommonPicture>СтруктураПодчиненностиДокумента</CommonPicture>
+			<CommonPicture>СправочникПВХКоннекторВверх</CommonPicture>
+			<CommonPicture>СправочникПВХКоннекторВерхНиз</CommonPicture>
+			<CommonPicture>СправочникПВХКоннекторЛево</CommonPicture>
+			<CommonPicture>СправочникПВХКоннекторЛевоВерх</CommonPicture>
+			<CommonPicture>СправочникПВХКоннекторЛевоНиз</CommonPicture>
+			<CommonPicture>СправочникПВХКоннекторНиз</CommonPicture>
+			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторВерх</CommonPicture>
+			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторВерхНиз</CommonPicture>
+			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторЛево</CommonPicture>
+			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторЛевоВерх</CommonPicture>
+			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторЛевоНиз</CommonPicture>
+			<CommonPicture>СправочникПВХПомеченНаУдалениеКоннекторНиз</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторВерх</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторВерхНиз</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторЛево</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторЛевоВерх</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторЛевоНиз</CommonPicture>
+			<CommonPicture>ДокументЗаписанКоннекторНиз</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерх</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторВерхНиз</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛево</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛевоВерх</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторЛевоНиз</CommonPicture>
+			<CommonPicture>ДокументПомеченНаУдалениеКоннекторНиз</CommonPicture>
+			<CommonPicture>ДокументПроведен</CommonPicture>
+			<CommonPicture>ДокументПроведенКоннекторВерх</CommonPicture>
+			<CommonPicture>ДокументПроведенКоннекторВерхНиз</CommonPicture>
+			<CommonPicture>ДокументПроведенКоннекторЛево</CommonPicture>
+			<CommonPicture>ДокументПроведенКоннекторЛевоВерх</CommonPicture>
+			<CommonPicture>ДокументПроведенКоннекторЛевоНиз</CommonPicture>
+			<CommonPicture>ДокументПроведенКоннекторНиз</CommonPicture>
+			<CommonPicture>КоннекторВерхНиз</CommonPicture>
+			<CommonPicture>КоннекторВерхПраво</CommonPicture>
+			<CommonPicture>КоннекторВерхПравоНиз</CommonPicture>
+			<CommonPicture>КоннекторЛевоНизПраво</CommonPicture>
+			<CommonPicture>КоннекторЛевоПраво</CommonPicture>
+			<CommonPicture>КоннекторПравоНиз</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
+			<CommonTemplate>СтруктураПодчиненности</CommonTemplate>
+			<FilterCriterion>СвязанныеДокументы</FilterCriterion>
 			<CommonModule>ОснПроцедурыИФ</CommonModule>
+			<CommonModule>СтруктураПодчиненностиПереопределяемый</CommonModule>
 			<SettingsStorage>ХранилищеНастроек</SettingsStorage>
 			<CommonCommand>ПоискСсылокНаОбъекты</CommonCommand>
 			<CommonCommand>АктивныеПользователи</CommonCommand>
@@ -145,6 +186,8 @@
 			<CommonCommand>УправлениеПолнотекстовымПоиском</CommonCommand>
 			<CommonCommand>УправлениеРасширениямиКонфигурации</CommonCommand>
 			<CommonCommand>КонструкторЗапросовНаУправляемыхФормах</CommonCommand>
+			<CommonCommand>СтруктураПодчиненности</CommonCommand>
+			<CommonForm>СтруктураПодчиненности</CommonForm>
 			<Catalog>Организации</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Контрагенты</Catalog>
